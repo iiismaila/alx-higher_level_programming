@@ -1,0 +1,15 @@
+U
+
+    
+4  ã                   @   sN   d Z ddlmZ dd l mZmZmZmZ ddlm	Z	 eƒ Z
+G dd„ de
+ƒ ZdS )z Definition of the City classé    )Údeclarative_base)ÚColumnÚIntegerÚStringÚ
+ForeignKey)Úrelationshipc                   @   sH   e Zd ZdZ dZeed d dd dZeedƒddZ	eee
+dƒdd Zd	S )
+ÚCityz
+Class CityZcitiesTF)Ú
+autoincrementÚprimary_keyÚnullableÚuniqueé€   )r   z	states.idN)Ú__name__Ú
+__module__Ú__qualname__Ú__doc__Ú
+__tablename__r    r   Úidr   Únamer   Ústate_id© r   r   ú^/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/model_city.pyr      s     ÿr   N)r   Ú sqlalchemy.ext.declarativer   Ú
+sqlalchemyr    r   r   r   Úsqlalchemy.ormr   ÚBaser   r   r   r      Ú<module>   s
+    

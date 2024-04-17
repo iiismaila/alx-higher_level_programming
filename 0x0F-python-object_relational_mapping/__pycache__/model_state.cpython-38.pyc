@@ -1,0 +1,11 @@
+U
+
+    9ñ   ã                   @   sP   d Z ddlmZ dd l mZmZmZ ddlmZ eƒ Z	eƒ Z	G dd„ de	ƒ Z
+dS )zcpython file that contains the class definition of
+a State and an instance Base = declarative_base()é    )Úunique) ÚColumnÚIntegerÚString)Údeclarative_basec                   @   s6   e Zd ZdZ dZeed d dd dZeedƒddZ	dS )	ÚStatezClass StateZstatesTF)Z
+autoincrementZprimary_keyÚnullabler   é€   )r   N)
+Ú__name__Ú
+__module__Ú__qualname__Ú__doc__Z
+__tablename__r    r   Úidr   Úname© r   r   ú_/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/model_state.pyr      s     ÿr   N)r
+   Zenumr   Ú
+sqlalchemyr    r   r   Z sqlalchemy.ext.declarativer   ÚBaser   r   r   r   r   Ú<module>   s     

@@ -1,0 +1,21 @@
+U
+
+    ‚7cr  ã                   @   sB   d Z ddlmZm Z mZmZ dd lmZ eƒ ZG dd„ deƒ Z	dS )zImproved model.cityé    )ÚColumnÚ
+ForeignKeyÚIntegerÚString)Údeclarative_basec                   @   sB   e Zd ZdZ dZeed dZeedƒddZ	eee
+dƒdd Zd	S )
+ÚCityzÙRepresents a city for a MySQL database.
+    Attributes:
+        id (sqlalchemy.Column): The city's id.
+        name (sqlalchemy.Column): The city's name.
+        state_id (sqlalchemy.Column): The city's state id.
+    ÚcitiesT)Úprimary_keyé€   F)Únullablez	states.idN)Ú__name__Ú
+__module__Ú__qualname__Ú__doc__Ú
+__tablename__r   r   Úidr   Únamer    Zstate_id© r   r   úe/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/relationship_city.pyr   	   s
+   r   N)
+r   Ú
+sqlalchemyr   r    r   r   Ú sqlalchemy.ext.declarativer   ÚBaser   r   r   r   r   Ú<module>   s      ‚7cr  ã                   @   sB   d Z ddlmZm Z mZmZ dd lmZ eƒ ZG dd„ deƒ Z	dS )zImproved model.cityé    )ÚColumnÚ
+ForeignKeyÚIntegerÚString)Údeclarative_basec                   @   sB   e Zd ZdZ dZeed dZeedƒddZ	eee
+dƒdd Zd	S )
+ÚCityzÙRepresents a city for a MySQL database.
+    Attributes:
+        id (sqlalchemy.Column): The city's id.

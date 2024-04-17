@@ -1,0 +1,24 @@
+U
+
+    ò7c    ã                   @   sT   d Z ddlmZm Z mZ dd lmZ ddlmZ ddl	m
+Z
+mZ G dd„ de
+Improved model.statesé    ) ÚColumnÚIntegerÚString)Úrelationship)Údeclarative_base)ÚBaseÚCityc                   @   s>   e Zd ZdZ dZeed dZeedƒddZ	e
+dd	d
+d ZdS )
+ÚStatea7  Represents a state for a MySQL database.
+    Attributes:
+        __tablename__ (str): The name of the MySQL table to store States.
+        id (sqlalchemy.Integer): The state's id.
+        name (sqlalchemy.String): The state's name.
+        cities (sqlalchemy.orm.relationship): The State-City relationship.
+    ZstatesT)Zprimary_keyé€   F)Znullabler   Ústatezall, delete)ZbackrefZcascadeN)Ú__name__Ú
+__module__Ú__qualname__Ú__doc__Z
+__tablename__r   r    Úidr   Únamer   Úcities© r   r   úf/home/vincent/alx-higher_level_programming/0x0F-python-object_relational_mapping/relationship_state.pyr	   	   s
+   r	   N)
+r   Ú
+sqlalchemyr   r    r   Úsqlalchemy.ormr   Z sqlalchemy.ext.declarativer   Úrelationship_cityr   r   r	   r   r   r   r   Ú<module>   s
+    
+
+
+
