@@ -1,0 +1,6 @@
+The time complexity of the `find_peak` function implemented in `6-peak.py` is O(log(n)).
+
+Explanation:
+- The function uses a modified binary search algorithm to find a peak in an unsorted list of integers.
+- Binary search has a time complexity of O(log(n)), where n is the number of elements in the list.
+- In each iteration of the binary search, the search space is halved, leading to a logarithmic time complexity.
